@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pages.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="xianshi">顶角A: <span id="A"></span></div>
+    <div class="data">
+        <div class="geshi"> 数据格式 :120º2'写作120.02</div>
+        <div class="row-container1">
+            <div class="row-one">\</div>
+            <div class="row-two">位置1</div>
+            <div class="row-three">位置2</div>
+        </div>
+        <div class="row-container2">
+            <div class="row-zero">次数</div>
+            <div class="row-four">θ左₁</div>
+            <div class="row-five">θ右₁</div>
+            <div class="row-six">θ左₂</div>
+            <div class="row-seven">θ右₂</div>
+        </div>
+        <div class="dingjiao-one">
+            <div class="diyihang-one-one">1</div>
+            <div class="diyihang-one-one1"><input bindinput="getInputValue1" name="data11" placeholder="请输入数据"
+                    type="digit" value=""></div>
+            <div class="diyihang-one-one2"><input bindinput="getInputValue2" name="data12" placeholder="请输入数据"
+                    type="digit" value=""></div>
+            <div class="diyihang-one-one3"><input bindinput="getInputValue3" name="data13" placeholder="请输入数据"
+                    type="digit" value=""></div>
+            <div class="diyihang-one-one4"><input bindinput="getInputValue4" name="data14" placeholder="请输入数据"
+                    type="digit" value=""></div>
+        </div>
+        <div class="dingjiao-two">
+            <div class="diyihang-two-one">2</div>
+            <div class="diyihang-two-one1"><input bindinput="getInputValue5" name="data21" placeholder="请输入数据"
+                    type="digit" value=""></div>
+            <div class="diyihang-two-one2"><input bindinput="getInputValue6" name="data22" placeholder="请输入数据"
+                    type="digit" value=""></div>
+            <div class="diyihang-two-one3"><input bindinput="getInputValue7" name="data23" placeholder="请输入数据"
+                    type="digit" value=""></div>
+            <div class="diyihang-two-one4"><input bindinput="getInputValue8" name="data24" placeholder="请输入数据"
+                    type="digit" value=""></div>
+        </div>
+        <div class="dingjiao-three">
+            <div class="diyihang-three-one">3</div>
+            <div class="diyihang-three-one1"><input bindinput="getInputValue9" name="data31" placeholder="请输入数据"
+                    type="digit" value=""></div>
+            <div class="diyihang-three-one2"><input bindinput="getInputValue10" name="data32" placeholder="请输入数据"
+                    type="digit" value=""></div>
+            <div class="diyihang-three-one3"><input bindinput="getInputValue11" name="data33" placeholder="请输入数据"
+                    type="digit" value=""></div>
+            <div class="diyihang-three-one4"><input bindinput="getInputValue12" name="data34" placeholder="请输入数据"
+                    type="digit" value=""></div>
+        </div>
+        <div class="dingjiao-four">
+            <div class="diyihang-four-one">4</div>
+            <div class="diyihang-four-one1"><input bindinput="getInputValue13" name="data41" placeholder="请输入数据"
+                    type="digit" value=""></div>
+            <div class="diyihang-four-one2"><input bindinput="getInputValue14" name="data42" placeholder="请输入数据"
+                    type="digit" value=""></div>
+            <div class="diyihang-four-one3"><input bindinput="getInputValue15" name="data43" placeholder="请输入数据"
+                    type="digit" value=""></div>
+            <div class="diyihang-four-one4"><input bindinput="getInputValue16" name="data44" placeholder="请输入数据"
+                    type="digit" value=""></div>
+        </div>
+        <div class="dingjiao-five">
+            <div class="diyihang-five-one">5</div>
+            <div class="diyihang-five-one1"><input bindinput="getInputValue17" name="data51" placeholder="请输入数据"
+                    type="digit" value=""></div>
+            <div class="diyihang-five-one2"><input bindinput="getInputValue18" name="data52" placeholder="请输入数据"
+                    type="digit" value=""></div>
+            <div class="diyihang-five-one3"><input bindinput="getInputValue19" name="data53" placeholder="请输入数据"
+                    type="digit" value=""></div>
+            <div class="diyihang-five-one4"><input bindinput="getInputValue20" name="data54" placeholder="请输入数据"
+                    type="digit" value=""></div>
+        </div>
+    </div>
+
+
+    <div class="xianshi1">最小偏向角δ=<span id="B"></span></div>
+    <div class="data1">
+        <div class="geshi">数据格式:180º25'写作180.25</div>
+        <div class="row-container11">
+            <div class="row-one1">\</div>
+            <div class="row-two1">入射光</div>
+            <div class="row-three1">出射光</div>
+        </div>
+        <div class="row-container21">
+            <div class="row-zero1">次数</div>
+            <div class="row-four1">左游标</div>
+            <div class="row-five1">右游标</div>
+            <div class="row-six1">左游标</div>
+            <div class="row-seven1">右游标</div>
+        </div>
+        <div class="pianxiangjiao-one1">
+            <div class="diyihang-one-one">1</div>
+            <div class="diyihang-one-one1"><input bindinput="getInputValue1" name="data110" placeholder="请输入数据" type="number"
+                    value=""></div>
+            <div class="diyihang-one-one2"><input bindinput="getInputValue2" name="data120" placeholder="请输入数据" type="number"
+                    value=""></div>
+            <div class="diyihang-one-one3"><input bindinput="getInputValue3" name="data130" placeholder="请输入数据" type="number"
+                    value=""></div>
+            <div class="diyihang-one-one4"><input bindinput="getInputValue4" name="data140" placeholder="请输入数据" type="number"
+                    value=""></div>
+        </div>
+        <div class="pianxiangjiao-two1">
+            <div class="diyihang-two-one">2</div>
+            <div class="diyihang-two-one1"><input bindinput="getInputValue5" name="data210" placeholder="请输入数据" type="number"
+                    value=""></div>
+            <div class="diyihang-two-one2"><input bindinput="getInputValue6" name="data220" placeholder="请输入数据" type="number"
+                    value=""></div>
+            <div class="diyihang-two-one3"><input bindinput="getInputValue7" name="data230" placeholder="请输入数据" type="number"
+                    value=""></div>
+            <div class="diyihang-two-one4"><input bindinput="getInputValue8" name="data240" placeholder="请输入数据" type="number"
+                    value=""></div>
+        </div>
+        <div class="pianxiangjiao-three1">
+            <div class="diyihang-three-one">3</div>
+            <div class="diyihang-three-one1"><input bindinput="getInputValue9" name="data310" placeholder="请输入数据"
+                    type="number" value=""></div>
+            <div class="diyihang-three-one2"><input bindinput="getInputValue10" name="data320" placeholder="请输入数据"
+                    type="number" value=""></div>
+            <div class="diyihang-three-one3"><input bindinput="getInputValue11" name="data330" placeholder="请输入数据"
+                    type="number" value=""></div>
+            <div class="diyihang-three-one4"><input bindinput="getInputValue12" name="data340" placeholder="请输入数据"
+                    type="number" value=""></div>
+        </div>
+        <div class="pianxiangjiao-four1">
+            <div class="diyihang-four-one">4</div>
+            <div class="diyihang-four-one1"><input bindinput="getInputValue13" name="data410" placeholder="请输入数据"
+                    type="number" value=""></div>
+            <div class="diyihang-four-one2"><input bindinput="getInputValue14" name="data420" placeholder="请输入数据"
+                    type="number" value=""></div>
+            <div class="diyihang-four-one3"><input bindinput="getInputValue15" name="data430" placeholder="请输入数据"
+                    type="number" value=""></div>
+            <div class="diyihang-four-one4"><input bindinput="getInputValue16" name="data440" placeholder="请输入数据"
+                    type="number" value=""></div>
+        </div>
+        <div class="pianxiangjiao-five1">
+            <div class="diyihang-five-one">5</div>
+            <div class="diyihang-five-one1"><input bindinput="getInputValue17" name="data510" placeholder="请输入数据"
+                    type="number" value=""></div>
+            <div class="diyihang-five-one2"><input bindinput="getInputValue18" name="data520" placeholder="请输入数据"
+                    type="number" value=""></div>
+            <div class="diyihang-five-one3"><input bindinput="getInputValue19" name="data530" placeholder="请输入数据"
+                    type="number" value=""></div>
+            <div class="diyihang-five-one4"><input bindinput="getInputValue20" name="data540" placeholder="请输入数据"
+                    type="number" value=""></div>
+        </div>
+    </div>
+
+
+
+
+    <div class="xianshi3">折射率n: <span id="resultN"></span></div>
+    <div class="data-jisusn">
+        <div class="dingjiaoshuru">输入顶角:</div>
+        <div class="input-container">
+            <input id="inputTopAngle" placeholder="请输入数据" type="number">
+        </div>
+        <div class="pianxiangjiaoshuru">输入偏向角:</div>
+        <div class="input-container">
+            <input id="inputMinDeviationAngle" placeholder="请输入数据" type="number">
+        </div>
+    </div>
+
+<div class="rom">
+        <!-- 计算和清零按钮 -->
+        <div onclick="all_count()" class="data-jisuan" data-value="{{valuejisuan}}" id="{{item.id.jiusan}}">
+                计算
+        </div>
+        <div onclick="tapclear()" class="data-clear" data-value="{{valueclear}}" id="{{item.id.clear}}">
+                清零
+        </div>
+</div>
+
+      
+</body>
+<script src="pages.js"></script>
+</html>

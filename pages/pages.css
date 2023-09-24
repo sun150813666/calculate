@@ -1,0 +1,263 @@
+/* 公共样式 */
+.xianshi,
+.xianshi1,
+.xianshi3 {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    min-width: 800rpx;
+    min-height: 100rpx;
+    font-size: 64rpx;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+.data,
+.data1,
+.data-jisusn {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.row-container1,
+.row-container2,
+.dingjiao-one,
+.dingjiao-two,
+.dingjiao-three,
+.dingjiao-four,
+.dingjiao-five,
+.row-container11,
+.row-container21,
+.pianxiangjiao-one1,
+.pianxiangjiao-two1,
+.pianxiangjiao-three1,
+.pianxiangjiao-four1,
+.pianxiangjiao-five1,
+.rom {
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+    
+}
+
+.row-one,
+.row-two,
+.row-three,
+.row-one1,
+.row-two1,
+.row-three1 {
+    flex: 1;
+        /* 均分水平空间 */
+        padding: 10px;
+        margin: 5px;
+        border-radius: 5px;
+        font-size: 12px;
+        text-align: center;
+}
+
+.row-zero,
+.row-four,
+.row-five,
+.row-six,
+.row-seven,
+.row-zero1,
+.row-four1,
+.row-five1,
+.row-six1,
+.row-seven1 { 
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.diyihang-one-one,
+.diyihang-one-one1,
+.diyihang-one-one2,
+.diyihang-one-one3,
+.diyihang-one-one4,
+.diyihang-two-one,
+.diyihang-two-one1,
+.diyihang-two-one2,
+.diyihang-two-one3,
+.diyihang-two-one4,
+.diyihang-three-one,
+.diyihang-three-one1,
+.diyihang-three-one2,
+.diyihang-three-one3,
+.diyihang-three-one4,
+.diyihang-four-one,
+.diyihang-four-one1,
+.diyihang-four-one2,
+.diyihang-four-one3,
+.diyihang-four-one4,
+.diyihang-five-one,
+.diyihang-five-one1,
+.diyihang-five-one2,
+.diyihang-five-one3,
+.diyihang-five-one4,
+.diyihang-one-one,
+.diyihang-one-one1,
+.diyihang-one-one2,
+.diyihang-one-one3,
+.diyihang-one-one4,
+.diyihang-two-one,
+.diyihang-two-one1,
+.diyihang-two-one2,
+.diyihang-two-one3,
+.diyihang-two-one4,
+.diyihang-three-one,
+.diyihang-three-one1,
+.diyihang-three-one2,
+.diyihang-three-one3,
+.diyihang-three-one4,
+.diyihang-four-one,
+.diyihang-four-one1,
+.diyihang-four-one2,
+.diyihang-four-one3,
+.diyihang-four-one4,
+.diyihang-five-one,
+.diyihang-five-one1,
+.diyihang-five-one2,
+.diyihang-five-one3,
+.diyihang-five-one4
+input[type="number"],
+input[type="digit"] {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+
+
+/* 设置输入框的样式 */
+input[type="number"],
+input[type="digit"] {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 240px;
+    height: 18px;
+    text-align: center;
+    border: 1px solid transparent;
+} 
+
+
+
+/* 设置按钮元素的样式 */
+
+.rom1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+/* 按钮样式 */
+.data-jisuan,
+.data-clear,
+.data-lishi,
+.data-jisuan1,
+.data-clear1,
+.data-lishi1 {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.data-jisuan, 
+.data-jisuan1,
+.data-clear,
+.data-clear1:hover,
+.data-lishi,
+.data-lishi1:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.data-jisuan:hover,
+.data-jisuan1:hover,
+.data-clear:hover,
+.data-clear1,
+.data-lishi:hover,
+.data-lishi1 {
+    background-color: #0056b3;
+}
+
+.data-clear,
+.data-clear1 {
+    background-color: #28a745;
+}
+
+.data-clear:hover,
+.data-clear1:hover {
+    background-color: #1e7e34;
+}
+
+/* 特定样式 */
+.row-one,
+.row-two,
+.row-three,
+.row-one1,
+.row-two1,
+.row-three1 {
+    background-color: #e2ecf3;
+}
+
+.row-zero,
+.row-four,
+.row-five,
+.row-six,
+.row-seven,
+.row-zero1,
+.row-four1,
+.row-five1,
+.row-six1,
+.row-seven1 {
+    background-color: #dce9f9;
+}
+
+.diyihang-one-one,
+.dingjiao-one input,
+.pianxiangjiao-one1 input {
+    background-color: #cee1f2;
+}
+
+.diyihang-two-one,
+.dingjiao-two input,
+.pianxiangjiao-two1 input {
+    background-color: #bed8f3;
+}
+
+.diyihang-three-one,
+.dingjiao-three input,
+.pianxiangjiao-three1 input,
+.input-container input {
+    background-color: #adcce9;
+}
+
+.diyihang-four-one,
+.dingjiao-four input,
+.pianxiangjiao-four1 input {
+    background-color: #90cbf9;
+}
+
+.diyihang-five-one,
+.dingjiao-five input,
+.pianxiangjiao-five1 input {
+    background-color: #64b7f6;
+}
